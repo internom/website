@@ -4,21 +4,56 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+
 		<title>outisfx</title>
+		<link rel="icon" type="image/x-icon" href="./favicon.ico" />
+
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
 	</head>
 	<body>
-		<div id="header">header</div>
+		<div class="header">
+			<div class="navbar">
+				<div class="logo">
+					<img src="assets/logo.png" alt="" />
+				</div>
 
-		<div id="body">body</div>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Discover</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				</nav>
 
-		<div id="footer">footer</div>
+				<div class="icon">
+					<i class="fas fa-question"></i>
+				</div>
+			</div>
+		</div>
 
-		<style>
-			body {
-				background-color: black;
-				color: white;
-			}
-		</style>
+		<div class="container">
+			<div class="row">
+				<div class="col-2">
+					<h1>
+						THIS<br />
+						<span>IS LIFE</span>
+					</h1>
+					<p>
+						Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum consequatur perferendis
+						praesentium, quis dignissimos natus!
+					</p>
+					<a href="" class="btn">Explore Now</a>
+				</div>
+
+				<div class="col-2">
+					<div class="box">
+						<video src="assets/videoson.mp4" autoplay muted loop></video>
+						<img src="assets/africa.jpg" alt="" />
+					</div>
+				</div>
+			</div>
+		</div>
 	</body>
 </html>
